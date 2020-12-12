@@ -1,0 +1,20 @@
+{
+  "name": "dnd",
+  "version": "1.0.0",
+  "description": "javascript drag and drop assignment",
+  "main": "script.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "cypress:open": "cypress open"
+  },
+  "author": "sushil",
+  "license": "ISC",
+  "homepage": "https://Rp-sushil.github.io/Deck_of_Cards",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^1.4.0",
+    "cypress": "^6.1.0"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
